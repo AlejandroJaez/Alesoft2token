@@ -1,0 +1,27 @@
+﻿<Window x:Class="Alesoft2token.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Alesoft2token"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock x:Name="leftstatusBar" />
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock x:Name="rightstatusBar" />
+            </StatusBarItem>
+        </StatusBar>
+        <Grid>
+            <Button Content="Registrar datos" HorizontalAlignment="Center" Margin="150,15,0,0" VerticalAlignment="Top" Click="TokenFingerprint" />
+            <TextBox AcceptsReturn="True" VerticalScrollBarVisibility="Auto" x:Name="txtBox" TextWrapping="Wrap" VerticalAlignment="Stretch" Margin="15,50,15,10" />
+            <ComboBox x:Name="ComboBoxUsers" HorizontalAlignment="Left" Margin="15,15,0,0" VerticalAlignment="Top" Width="400" SelectedIndex="0"/>
+        </Grid>
+        
+    </DockPanel>
+
+</Window>

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Alesoft2token.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="api_root" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://rh.celfun.com/api/v1/</Value>
+    </Setting>
+    <Setting Name="api_url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://rh.celfun.com/api/v1/</Value>
+    </Setting>
+    <Setting Name="token_refresh" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="token_access" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

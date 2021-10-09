@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Alesoft2token": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
